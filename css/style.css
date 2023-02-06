@@ -60,15 +60,14 @@ body, html {
     list-style-type: none;
     margin-top: 150px;
     margin-left: 50px;
-    
-
   }
 
 .pics li {
     display: inline;
     padding-right: 40px;
-    width: 15%;
+ 
   }
+
 .btn-dark{
     border-radius: 12px;
     padding: 10px 20px;
@@ -85,7 +84,7 @@ body, html {
     background-color: white;
     color: black;
 }
-.img{
+.hero{
     width: 100%;
     padding: 100px;
     max-width:100%;
@@ -100,14 +99,11 @@ body, html {
   }
 
 
-
-
-
   @media only screen and (max-width: 768px) {
 
 
     /* For mobile phones: */
-    .img {
+    .hero {
         display: none;  
     }
 
@@ -124,13 +120,34 @@ body, html {
         margin-top: 350px;
         font-weight: 700;
         font-size: 35px;
+        text-align: center;
+        padding-left: 10px;
+        margin-right: 10px;
         
     }
 
+    .col-md-6 p{
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 18px;
+        word-spacing: normal;
+        text-align: center;
+        padding-left: 10px;
+        margin-right: 10px;     
+    }
+
+    .btn-dark{
+        border-radius: 12px;
+        padding: 10px 20px;
+        text-align: center;
+        margin-left: 0px;
+      
+    }
     li img {
-        width: 15%;
-       
-      }
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 20%;
+    }
       .wrapper {
         background-image: url(/images/image-hero-mobile.png);
         height: 80%;
@@ -138,18 +155,28 @@ body, html {
         max-width: 100%;
         background-repeat: no-repeat; 
         background-size: contain;
+    
     }
-    .pics {
-        list-style-type: none;
-        margin-top: 60px;
-        width: 100%;
-      }
+
 
       .pics li {
         display: inline;
-        padding-right: 20px;
+        padding-right: 10px;
      
       }
+
+    .pics {
+        list-style-type: none;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    #icon2{
+        width: 10%;
+    }
+
+
+     
   }
 
 
