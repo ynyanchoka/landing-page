@@ -26,10 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/images/Screenshot%202023-02-06%20at%2014.29.42.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](hhttps://storied-daifuku-83e476.netlify.app/)
 
 ## My process
 
